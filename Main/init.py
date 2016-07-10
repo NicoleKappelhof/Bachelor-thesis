@@ -4,7 +4,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import re, time
 import Exact.ExactDepots as depots
-import Genetic.genetic as geneticMore
+import Genetic.Genetic as geneticMore
 import Distances
 import Exact.linearProgram as LinProg
 
