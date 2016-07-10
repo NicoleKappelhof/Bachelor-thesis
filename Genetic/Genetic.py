@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import greedySet.greedy as greedy
 import Exact.ExactDepots as depots
 from random import shuffle
-import Distances 
+from Main import Distances 
 
 problemConfiguration = None
 gridSize = 15
