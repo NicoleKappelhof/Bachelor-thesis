@@ -4,8 +4,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import re, time
 import Exact.ExactDepots as depots
-import ThreeOrMore.GeneticMore as geneticMore
-import ThreeOrMore.Distances as Distances
+import Genetic.genetic as geneticMore
+import Distances
 import Exact.linearProgram as LinProg
 
 n = 300
