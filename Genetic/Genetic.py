@@ -1,7 +1,7 @@
 import copy, numpy
 from sets import Set as set
 import matplotlib.pyplot as plt
-import greedySet.greedy as greedy
+import Greedy.greedy as greedy
 import Exact.ExactDepots as depots
 from random import shuffle
 from Main import Distances 
