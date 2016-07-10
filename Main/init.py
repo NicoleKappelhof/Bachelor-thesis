@@ -68,7 +68,7 @@ def doSolution(N,K,distanceObject,rep):
     if K==2:
         sting += 'Kolmo'
         lengthFloat = writeToKolmogorov()
-        raw_input("Press Enter to continue...")
+        raw_input("Execute the minimum cost maximum matching algorithm. Press Enter when the algorithm is finished...")
         print "Continue"
         sting += obtainKolmogorov('solution.txt',distanceObject,lengthFloat,title='KolmogorovRND' + str(len(N))+ '-' + str(rep) )
         sting+= '\n'
